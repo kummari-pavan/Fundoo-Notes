@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
 import Logger from './logger';
 
+import dotenv from 'dotenv';
+
 class Database {
   private DATABASE: string;
   private logger;
@@ -29,4 +31,20 @@ class Database {
     }
   };
 }
-export default Database;
+
+//my logic
+dotenv.config();
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGODB_URI as string, { useNewUrlParser: true, useUnifiedTopology: true });
+    console.log('MongoDB connected');
+  } catch (error) {
+    console.error('MongoDB connection failed:', error);
+    process.exit(1);
+  }
+};
+
+export default connectDB;
+
+// export default Database;
+

@@ -2,40 +2,55 @@ import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import { Router } from 'express';
+import { register, login } from '../controllers/user.controller';
+import { validateRegistration, validateLogin } from '../middlewares/auth.middleware';
 
-class UserRoutes {
-  private UserController = new userController();
-  private router = express.Router();
-  private UserValidator = new userValidator();
 
-  constructor() {
-    this.routes();
-  }
 
-  private routes = () => {
-    //route to get all users
-    this.router.get('', this.UserController.getAllUsers);
+// class UserRoutes {
+//   private UserController = new userController();
+//   private router = express.Router();
+//   private UserValidator = new userValidator();
 
-    //route to create a new user
-    this.router.post(
-      '',
-      this.UserValidator.newUser,
-      this.UserController.newUser
-    );
+//   constructor() {
+//     this.routes();
+//   }
 
-    //route to get a single user
-    this.router.get('/:_id', userAuth, this.UserController.getUser);
+//   private routes = () => {
+//     //route to get all users
+//     this.router.get('', this.UserController.getAllUsers);
 
-    //route to update a single user
-    this.router.put('/:_id', this.UserController.updateUser);
+//     //route to create a new user
+//     this.router.post(
+//       '',
+//       this.UserValidator.newUser,
+//       this.UserController.newUser
+//     );
 
-    //route to delete a single user
-    this.router.delete('/:_id', this.UserController.deleteUser);
-  };
+//     //route to get a single user
+//     this.router.get('/:_id', userAuth, this.UserController.getUser);
 
-  public getRoutes = (): IRouter => {
-    return this.router;
-  };
-}
+//     //route to update a single user
+//     this.router.put('/:_id', this.UserController.updateUser);
 
-export default UserRoutes;
+//     //route to delete a single user
+//     this.router.delete('/:_id', this.UserController.deleteUser);
+//   };
+
+//   public getRoutes = (): IRouter => {
+//     return this.router;
+//   };
+// }
+
+//export default UserRoutes;
+
+//my Router
+const router = Router();
+
+router.post('/register', validateRegistration, register);
+router.post('/login', validateLogin, login);
+
+export default router;
+
+

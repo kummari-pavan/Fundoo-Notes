@@ -12,13 +12,18 @@ import Logger from './config/logger';
 
 import morgan from 'morgan';
 
+//----------------------------------------------------------
+import connectDB from './config/database';
+import authRoutes from './routes/user.route';
+
+
 class App {
   public app: Application;
   public host: string | number;
   public port: string | number;
   public api_version: string | number;
   public env: boolean;
-  private db = new Database();
+  //private db = new Database();
   private logStream = Logger.logStream;
   private logger = Logger.logger;
   public errorHandler = new ErrorHandler();
@@ -33,7 +38,7 @@ class App {
     this.initializeRoutes();
     this.initializeDatabase();
     this.initializeErrorHandlers();
-    this.startApp();
+    //this.startApp();
   }
 
   public initializeMiddleWares(): void {
@@ -45,7 +50,7 @@ class App {
   }
 
   public initializeDatabase(): void {
-    this.db.initializeDatabase();
+    //this.db.initializeDatabase();
   }
 
   public initializeRoutes(): void {
@@ -58,18 +63,40 @@ class App {
     this.app.use(this.errorHandler.notFound);
   }
 
-  public startApp(): void {
-    this.app.listen(this.port, () => {
-      this.logger.info(
-        `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
-      );
-    });
-  }
+  // public startApp(): void {
+  //   this.app.listen(this.port, () => {
+  //     this.logger.info(
+  //       `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
+  //     );
+  //   });
+  // }
 
   public getApp(): Application {
     return this.app;
   }
+ 
+  //------------------------------------------------------
+
+
+
 }
+dotenv.config();
+
+  const app1 = express();
+  const PORT = process.env.PORT || 3000;
+
+  connectDB();
+
+  // Middleware
+  app1.use(express.json());
+
+  // Routes
+  app1.use('/api/auth', authRoutes);
+
+  // Start the server
+  app1.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+  });
 
 const app = new App();
 

@@ -1,0 +1,10 @@
+info: ::1 - - [18/Oct/2024:10:06:31 +0000] "POST /api/auth/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:10:08:28 +0000] "POST /api/auth/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:10:09:39 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:10:10:18 +0000] "POST /api/v1/users/register HTTP/1.1" 201 234 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:10:12:53 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.42.0"
+

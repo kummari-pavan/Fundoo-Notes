@@ -1,56 +1,39 @@
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
-import { Router } from 'express';
-import { register, login } from '../controllers/user.controller';
 import { validateRegistration, validateLogin } from '../middlewares/auth.middleware';
 
 
 
-// class UserRoutes {
-//   private UserController = new userController();
-//   private router = express.Router();
-//   private UserValidator = new userValidator();
+class UserRoutes {
+  private UserController = new userController();
+  private router = express.Router();
+  private UserValidator = new userValidator();
 
-//   constructor() {
-//     this.routes();
-//   }
+  constructor(){
+    this.routes()
+  }
+  
+  private routes=()=>{
+    this.router.post('/register', validateRegistration, this.UserController.register);
+    this.router.post('/login', validateLogin, this.UserController.login);
 
-//   private routes = () => {
-//     //route to get all users
-//     this.router.get('', this.UserController.getAllUsers);
+  }
+  
+  public getRoutes=()=>{
+    return this.router
+  };
 
-//     //route to create a new user
-//     this.router.post(
-//       '',
-//       this.UserValidator.newUser,
-//       this.UserController.newUser
-//     );
+}
 
-//     //route to get a single user
-//     this.router.get('/:_id', userAuth, this.UserController.getUser);
+export default UserRoutes;
 
-//     //route to update a single user
-//     this.router.put('/:_id', this.UserController.updateUser);
+// //my Router
+// const router = Router();
 
-//     //route to delete a single user
-//     this.router.delete('/:_id', this.UserController.deleteUser);
-//   };
+// router.post('/register', validateRegistration, register);
+// router.post('/login', validateLogin, login);
 
-//   public getRoutes = (): IRouter => {
-//     return this.router;
-//   };
-// }
-
-//export default UserRoutes;
-
-//my Router
-const router = Router();
-
-router.post('/register', validateRegistration, register);
-router.post('/login', validateLogin, login);
-
-export default router;
+// export default router;
 
 

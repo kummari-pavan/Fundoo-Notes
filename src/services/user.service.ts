@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
+import bcrypt from 'bcryptjs';
 
 class UserService {
 
@@ -45,20 +46,44 @@ class UserService {
 //---------------------------------------
 
 // Define a function to register a new user
-export const registerUser = async (userData: any) => {
+// export const registerUser = async (userData: any) => 
+
+export const registerUser =  async (
+  name: string, 
+  email: string, 
+  username: string, 
+  password: string, 
+  confirmPassword: string)=>{
   // Check if the username or email already exists
   const existingUser = await User.findOne({
-    $or: [{ email: userData.email }, { username: userData.username }]
+    $or: [{ email: email }, { username: username }]
   });
 
   if (existingUser) {
     throw new Error('User with this email or username already exists');
   }
+  
+
+//Before Saving User Data , applying Password Hashing 
+const salt= await bcrypt.genSalt(10);
+const hashPassword = await bcrypt.hash(password,salt)
+
+
 
   // Create a new user with the given data
-  const newUser = new User(userData);
+  //const newUser = new User(userData)
+  ;
+   // Save the user with the hashed password
+   const newUser = new User({
+    name,
+    email,
+    username,
+    password: hashPassword // Store the hashed password
+  });
+
   return await newUser.save();
-};
+
+ };
 
 // Define a function to log in a user
 export const loginUser = async (usernameOrEmail: string, password: string) => {
@@ -72,9 +97,15 @@ export const loginUser = async (usernameOrEmail: string, password: string) => {
   }
 
   // Check if the password matches (this is just a direct comparison without hashing)
-  if (user.password !== password) {
-    throw new Error('Invalid credentials');
-  }
+  // if (user.password !== password) {
+  //   throw new Error('Invalid credentials');
+  // }
+
+   // Compare the provided password with the hashed password in the database
+   const isMatch = await bcrypt.compare(password, user.password);
+   if (!isMatch) {
+     throw new Error('Invalid credentials');
+   }
 
   return user;
 };

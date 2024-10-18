@@ -1,7 +1,6 @@
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
-import { validateRegistration, validateLogin } from '../middlewares/auth.middleware';
 
 
 
@@ -15,8 +14,8 @@ class UserRoutes {
   }
   
   private routes=()=>{
-    this.router.post('/register', validateRegistration, this.UserController.register);
-    this.router.post('/login', validateLogin, this.UserController.login);
+    this.router.post('/register', this.UserValidator.validateRegistration, this.UserController.register);
+    this.router.post('/login', this.UserValidator.validateLogin, this.UserController.login);
 
   }
   

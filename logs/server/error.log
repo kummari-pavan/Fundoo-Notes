@@ -158,3 +158,47 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-10-18T11:10:06.487Z"}
+error: 
+    status - 500 
+    message - ValidationError: "username" is not allowed 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-18T11:14:10.138Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T13:56:31.913Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T14:08:32.517Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T14:14:36.089Z"}

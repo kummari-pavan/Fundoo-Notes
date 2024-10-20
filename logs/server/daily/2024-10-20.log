@@ -1,0 +1,65 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T13:52:31.781Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T13:52:31.827Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T13:56:31.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T13:58:28.433Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T13:58:28.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:01:18.038Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:01:18.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:01:27.641Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:01:27.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:02:12.822Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:02:12.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:03:50.126Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:03:50.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:04:41.718Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:04:41.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:05:30.385Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:05:30.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:08:13.129Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:08:13.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:08:23.864Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:08:23.892Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-20T14:08:32.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:13:37.751Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:13:37.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:14:10.599Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:14:10.633Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-20T14:14:36.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:21:33.630Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:21:33.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-20T14:21:38.376Z"}
+info: Connected to the database. {"timestamp":"2024-10-20T14:21:38.411Z"}

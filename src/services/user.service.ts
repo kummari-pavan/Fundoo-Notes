@@ -1,6 +1,10 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+
+dotenv.config(); 
 
 class UserService {
 
@@ -48,7 +52,16 @@ class UserService {
       throw new Error('Invalid credentials');
     }
 
-    return user;
+     // Generate JWT Token 
+     const token = jwt.sign(
+      { id: user._id, email: user.email, username: user.username },  // Payload data
+      process.env.JWT_SECRET as string, 
+      { expiresIn: '1h' }
+    );
+  
+
+    return { user, token };
+  
   };
 
 }

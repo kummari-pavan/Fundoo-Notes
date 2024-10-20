@@ -28,3 +28,9 @@ info: ::1 - - [18/Oct/2024:11:09:49 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [18/Oct/2024:11:10:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [18/Oct/2024:11:13:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 223 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:11:13:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 223 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [18/Oct/2024:11:14:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 62 "-" "PostmanRuntime/7.42.0"
+

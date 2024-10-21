@@ -112,3 +112,39 @@ info: ::1 - - [21/Oct/2024:07:54:04 +0000] "POST /api/v1/notes/get/users/6716023
 
 info: ::1 - - [21/Oct/2024:07:54:07 +0000] "POST /api/v1/notes/get/users/67160232d8f51d248cddbab9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [21/Oct/2024:07:59:02 +0000] "POST /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:09:11:34 +0000] "POST /api/v1/notes/get/67160232d8f51d248cddbab9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:12:38 +0000] "POST /api/v1/notes/get/67160232d8f51d248cddbab9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:12:44 +0000] "POST /api/v1/notes/get/67160232d8f51d248cddbab9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:13:02 +0000] "GET /api/v1/notes/get/67160232d8f51d248cddbab9 HTTP/1.1" 200 565 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:17:39 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:17:59 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:19:00 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:22:21 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:26:17 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 28 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:26:21 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 28 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:32:41 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 28 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:32:46 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 28 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:33:30 +0000] "PUT /api/v1/notes/update/67160232d8f51d248cddbab9 HTTP/1.1" 400 28 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:41:44 +0000] "PUT /api/v1/notes/update/67160555229a292ae04182f0 HTTP/1.1" 200 325 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:43:13 +0000] "PUT /api/v1/notes/create HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:43:38 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 321 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [21/Oct/2024:10:44:11 +0000] "DELETE /api/v1/notes/delete/67160555229a292ae04182f0 HTTP/1.1" 200 39 "-" "PostmanRuntime/7.42.0"
+

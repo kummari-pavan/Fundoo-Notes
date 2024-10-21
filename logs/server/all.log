@@ -450,3 +450,48 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T0
 info: Connected to the database. {"timestamp":"2024-10-21T07:43:01.271Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:53:27.877Z"}
 info: Connected to the database. {"timestamp":"2024-10-21T07:53:27.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T07:53:47.111Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T07:53:47.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T08:56:41.338Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T08:56:41.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T09:22:54.322Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T09:22:54.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:12:21.651Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:12:21.679Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 141
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/update/67160232d8f51d248cddbab9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-21T10:17:51.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:26:13.934Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:26:13.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:30:47.186Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:30:47.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:32:37.996Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:32:38.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:36:54.218Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:36:54.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:38:26.632Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:38:26.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:52:44.067Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:52:44.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:53:22.741Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:53:22.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:53:57.921Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:53:57.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T10:54:39.261Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T10:54:39.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-21T11:04:23.421Z"}
+info: Connected to the database. {"timestamp":"2024-10-21T11:04:23.460Z"}

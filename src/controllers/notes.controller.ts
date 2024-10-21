@@ -23,7 +23,7 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
   };
   
 
-  // Controller to get all notes by user ID
+  //This Is For Getting All User Notes With UserId
   public getNotes = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const userId = req.params.userId;
@@ -33,6 +33,7 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
       res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
     }
   };
+
 
   // Controller to update a note by note ID
   public updateNote = async (req: Request, res: Response, next: NextFunction) => {
@@ -44,6 +45,8 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
       res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
     }
   };
+
+
 
   // Controller to delete a note by note ID
   public deleteNote = async (req: Request, res: Response, next: NextFunction) => {

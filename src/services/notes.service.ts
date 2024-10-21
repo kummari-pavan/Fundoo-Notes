@@ -1,6 +1,8 @@
 import Note from '../models/notes.model';
 import { INote } from '../interfaces/notes.interface';
 
+import mongoose from 'mongoose';
+
 class NotesService {
 
   // Create a new note
@@ -25,13 +27,16 @@ class NotesService {
     return await Note.find({ createdBy: userId });
   };
 
-  // Update a note by note ID
+  // Updating Notes Data With Note Id
   public updateNote = async (
     noteId: string,
     updateData: Partial<INote>
   ): Promise<INote | null> => {
     return await Note.findByIdAndUpdate(noteId, updateData, { new: true });
   };
+
+
+  
 
   // Delete a note by note ID
   public deleteNote = async (noteId: string): Promise<void> => {

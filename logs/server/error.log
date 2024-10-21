@@ -366,3 +366,20 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2024-10-21T07:30:17.602Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 141
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/update/67160232d8f51d248cddbab9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-10-21T10:17:51.973Z"}

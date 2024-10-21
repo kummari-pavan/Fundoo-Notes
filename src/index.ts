@@ -32,8 +32,9 @@ class App {
 
     this.initializeMiddleWares();
     this.initializeRoutes();
-    this.initializeDatabase();
     this.initializeErrorHandlers();
+    this.initializeDatabase();
+   
     this.startApp();
   }
 

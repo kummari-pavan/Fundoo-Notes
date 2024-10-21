@@ -21,14 +21,14 @@ class NotesRoutes {
       this.NotesController.createNote
     );
 
-    // Get all notes for a user 
+    // Getting all User Notes Data With User Id
     this.router.get(
-      '/get/users/:userId',
+      '/get/:userId',
       userAuth,
       this.NotesController.getNotes
     );
 
-    // Update a note by note ID 
+    // update Note Data with Note Id
     this.router.put(
       '/update/:noteId',
       this.notesValidator.updateNoteSchema,

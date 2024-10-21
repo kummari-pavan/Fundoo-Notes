@@ -16,7 +16,7 @@ class UserRoutes {
   
   private routes=()=>{
     this.router.post('/register', this.UserValidator.validateRegistration, this.UserController.register);
-    this.router.post('/login', this.UserValidator.validateLogin, userAuth , this.UserController.login);
+    this.router.post('/login', this.UserValidator.validateLogin , this.UserController.login);
 
   }
   

@@ -55,12 +55,10 @@ class UserService {
      // Generate JWT Token 
      const token = jwt.sign(
       { id: user._id, email: user.email, username: user.username },  // Payload data
-      process.env.JWT_SECRET as string, 
-      { expiresIn: '1h' }
-    );
+      process.env.JWT_SECRET);
   
 
-    return { user, token };
+    return {token };
   
   };
 

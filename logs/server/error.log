@@ -202,3 +202,167 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-10-20T14:14:36.089Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T06:02:32.133Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T06:15:10.586Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:20:53.629Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:21:35.821Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:24:37.891Z"}
+error: 
+    status - 500 
+    message - ValidationError: "username" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:24:54.359Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:25:12.149Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is not allowed 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:25:45.822Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:29:06.734Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:32:37
+    at Generator.next (<anonymous>)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.validateLogin (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\validators\user.validator.ts:41:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-21T07:29:31.581Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-21T07:29:50.304Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-21T07:30:17.602Z"}

@@ -28,7 +28,7 @@ class NotesRoutes {
       this.NotesController.getNotes
     );
 
-    // update Note Data with Note Id
+    // update Note Data with Note ID
     this.router.put(
       '/update/:noteId',
       this.notesValidator.updateNoteSchema,

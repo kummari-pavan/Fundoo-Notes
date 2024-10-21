@@ -35,7 +35,7 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
   };
 
 
-  // Controller to update a note by note ID
+  // Controller to Update Notes Data Using Note Id
   public updateNote = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const noteId = req.params.noteId;

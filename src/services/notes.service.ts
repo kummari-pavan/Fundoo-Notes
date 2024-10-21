@@ -27,7 +27,7 @@ class NotesService {
     return await Note.find({ createdBy: userId });
   };
 
-  // Updating Notes Data With Note Id
+  //Update Notes Data Using Note Id
   public updateNote = async (
     noteId: string,
     updateData: Partial<INote>

@@ -38,7 +38,7 @@ class NotesService {
 
   
 
-  // Delete a note by note ID
+  //Delete Notes By Note ID
   public deleteNote = async (noteId: string): Promise<void> => {
     await Note.findByIdAndDelete(noteId);
   };

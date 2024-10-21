@@ -36,7 +36,7 @@ class NotesRoutes {
       this.NotesController.updateNote
     );
 
-    // Delete a note by note ID 
+    //Delete Notes By Note ID
     this.router.delete(
       '/delete/:noteId',
       userAuth,

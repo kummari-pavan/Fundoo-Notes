@@ -48,7 +48,7 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
 
 
 
-  // Controller to delete a note by note ID
+  // Controller to Delete Notes By Note ID
   public deleteNote = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const noteId = req.params.noteId;

@@ -21,6 +21,20 @@ const noteSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+
+  isRestored: {
+    type: Boolean,
+    required: function () {
+      return this.isTrash === true;
+    },
+  },
+  isPermanentlyDeleted: {
+    type: Boolean,
+    required: function () {
+      return this.isTrash === true;
+    },
+  },
+  
   createdBy: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User', // Reference to the User model

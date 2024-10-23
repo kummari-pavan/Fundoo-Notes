@@ -58,6 +58,34 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
       res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
     }
   };
-}
+
+ 
+  //Controller to Trash a Note (and expose restore and permanent delete options)
+    public trashNote = async (req: Request, res: Response, next: NextFunction) => {
+      try {
+        const noteId = req.params.noteId;
+        await this.NotesService.trashNote(noteId);
+        res.status(HttpStatus.OK).json({ message: 'Note Trashed successfully' });
+      } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
+      }
+    };
+   
+    //Controller to Trash a Note (and expose restore and permanent delete options)
+    public archiveNote = async (req: Request, res: Response, next: NextFunction) => {
+      try {
+        const noteId = req.params.noteId;
+        await this.NotesService.archiveNote(noteId);
+        res.status(HttpStatus.OK).json({ message: 'Note archive successfully' });
+      } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
+      }
+    };
+
+   
+};
+
+
+
 
 export default NotesController;

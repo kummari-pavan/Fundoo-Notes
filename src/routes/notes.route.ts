@@ -12,9 +12,7 @@ class NotesRoutes {
     this.routes();
   }
 
-  public routes = () => {
-    // Create a new note 
-    this.router.post(
+  public routes = () => { this.router.post(
       '/create',
       this.notesValidator.createNoteSchema,
       userAuth,
@@ -22,27 +20,14 @@ class NotesRoutes {
     );
 
     // Getting all User Notes Data With User Id
-    this.router.get(
-      '/get/:userId',
-      userAuth,
-      this.NotesController.getNotes
-    );
+    this.router.get('/get/:userId',userAuth, this.NotesController.getNotes);
+    this.router.put('/update/:noteId',this.notesValidator.updateNoteSchema,userAuth,this.NotesController.updateNote);
+    this.router.delete('/delete/:noteId',userAuth,this.NotesController.deleteNote);
+    this.router.put('/trash/:noteId',userAuth,this.NotesController.trashNote);
+    this.router.put('/archive/:noteId',userAuth,this.NotesController.archiveNote);
+};
 
-    // update Note Data with Note ID
-    this.router.put(
-      '/update/:noteId',
-      this.notesValidator.updateNoteSchema,
-      userAuth,
-      this.NotesController.updateNote
-    );
-
-    //Delete Notes By Note ID
-    this.router.delete(
-      '/delete/:noteId',
-      userAuth,
-      this.NotesController.deleteNote
-    );
-  };
+    
 
   public getRoutes = () => {
     return this.router;

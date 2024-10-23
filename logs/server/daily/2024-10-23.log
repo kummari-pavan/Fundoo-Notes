@@ -1,0 +1,108 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:15:48.562Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:15:48.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:20:41.068Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:20:41.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:23:18.641Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:23:18.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:26:47.313Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:26:47.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:27:06.048Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:27:06.094Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:27:14.655Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:27:29.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:30:03.304Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:30:03.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:33:18.301Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:33:18.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:51:50.533Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:51:50.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:57:47.181Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:57:47.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:58:51.592Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:58:51.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T09:59:03.798Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T09:59:03.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:01:39.054Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:01:39.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:01:56.012Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:01:56.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:01:59.521Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:01:59.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:02:02.224Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:02:02.262Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected property name or '}' in JSON at position 5
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:05:00.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:11:45.105Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:11:45.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:12:47.396Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:12:47.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:16:40.875Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:16:40.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:18:31.961Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:18:32.011Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 116
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-23T10:21:01.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:23:06.898Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:23:06.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:24:04.356Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:24:04.410Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:24:23.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:37:52.191Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:37:52.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:38:46.465Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:38:46.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:39:15.270Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:39:15.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:44:42.369Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:44:42.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:45:04.730Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:45:04.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:47:07.067Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:47:07.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:47:21.373Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:47:21.403Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/get/6718ca91fbed8a52f80ef953 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-10-23T10:47:36.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:48:52.374Z"}
+info: Connected to the database. {"timestamp":"2024-10-23T10:48:52.412Z"}

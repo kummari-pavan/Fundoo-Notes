@@ -34,6 +34,17 @@ public createNote = async (req: Request, res: Response, next: NextFunction) => {
     }
   };
 
+   //This Is For get note by note Id
+   public getNoteById = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const userId = req.params.userId;
+      const notes = await this.NotesService.getNoteById(userId);
+      res.status(HttpStatus.OK).json({ message: 'Notes fetched successfully', notes });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
+    }
+  };
+
 
   // Controller to Update Notes Data Using Note Id
   public updateNote = async (req: Request, res: Response, next: NextFunction) => {

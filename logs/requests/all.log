@@ -444,3 +444,7 @@ info: ::1 - - [23/Oct/2024:10:54:38 +0000] "GET /api/v1/api-docs/favicon-32x32.p
 
 info: ::1 - - [23/Oct/2024:10:55:06 +0000] "GET /api/v1/notes/get-all/6718ca91fbed8a52f80ef953 HTTP/1.1" 200 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 
+info: ::1 - - [23/Oct/2024:10:55:09 +0000] "GET /api/v1/notes/get-all/6718ca91fbed8a52f80ef953 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:11:25:29 +0000] "GET /api/v1/notes/get/6718cef201b5f33fc0efd8d2 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+

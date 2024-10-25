@@ -448,3 +448,351 @@ info: ::1 - - [23/Oct/2024:10:55:09 +0000] "GET /api/v1/notes/get-all/6718ca91fb
 
 info: ::1 - - [23/Oct/2024:11:25:29 +0000] "GET /api/v1/notes/get/6718cef201b5f33fc0efd8d2 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 
+info: ::1 - - [24/Oct/2024:11:22:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:27 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:34 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs HTTP/1.1" 301 165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 200 13749 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:22:42 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:26:20 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:27:01 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:27:07 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:27:17 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:30:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 85 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:30:45 +0000] "POST /api/v1/users/register HTTP/1.1" 500 85 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:30:56 +0000] "POST /api/v1/users/register HTTP/1.1" 201 245 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:32:39 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:33:35 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:33:40 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:15:58:05 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:21 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:21 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:21 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:21 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:21 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:02:22 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:03:03 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:04:43 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:47 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:47 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:47 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:47 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:47 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:18:48 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:26 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:29 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:58 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:59 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:59 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:59 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:59 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:27:59 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:28:40 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:28:44 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:57:35 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:44 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:44 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:44 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:45 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:45 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:58:45 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:59:28 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:18 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:01:49 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:03:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:04:42 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:34 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:34 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:34 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:34 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:34 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:14:35 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:15:21 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:15:25 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:31 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:45 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:16:54 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:17:57 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:18:24 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:19:00 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:32:49 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:46:28 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:54:35 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:17:55:42 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:36:31 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:36:31 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:36:31 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:36:31 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 200 13748 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:36:32 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:37:12 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:40:41 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:40:58 +0000] "GET /api/v1/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWE3ZGZiNGRkMzkxN2ZlMDVjYzFhZCIsImlhdCI6MTcyOTgyNzYzOCwiZXhwIjoxNzI5ODMxMjM4fQ.uvVljPO0PKVGr24ox9WDBJYS5NqArmDCSCtsGZmRTyg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:40:58 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:06 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:43:49 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:44:02 +0000] "GET /api/v1/users/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWE3ZGZiNGRkMzkxN2ZlMDVjYzFhZCIsImlhdCI6MTcyOTgyNzgyNiwiZXhwIjoxNzI5ODMxNDI2fQ.32d2HU18C2-WPRLfHKODXbUqo8DD_dNlVwcTeCsfYu4 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:03:44:05 +0000] "GET /api/v1/users/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWE3ZGZiNGRkMzkxN2ZlMDVjYzFhZCIsImlhdCI6MTcyOTgyNzgyNiwiZXhwIjoxNzI5ODMxNDI2fQ.32d2HU18C2-WPRLfHKODXbUqo8DD_dNlVwcTeCsfYu4 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:16:56 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:17:03 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:35:06 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:38:58 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:39:32 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 36 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:39:41 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:41:23 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:44:23 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 39 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:02 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:46 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:46:49 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:48:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:04:48:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 285 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:38:14 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:39:05 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:12 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:12 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:12 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:12 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:12 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:13 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:49:29 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:50:52 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:51:01 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:51:21 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:51:26 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:14 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:53:24 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:55:20 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:55:50 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:05:55:54 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:01:37 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:06:40 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:39 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:39 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:39 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:39 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:39 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:40 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:08:53 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:09:38 +0000] "POST /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 200 13747 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:30:08 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:20 +0000] "PUT /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:32:49 +0000] "GET /api/v1/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:33:03 +0000] "PUT /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:07:00:54 +0000] "PUT /api/v1/users/reset-password/%7Btoken%7D HTTP/1.1" 400 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+

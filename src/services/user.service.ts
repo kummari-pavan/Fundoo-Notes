@@ -3,6 +3,7 @@ import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import { sendResetEmail } from '../utils/emailService';
 
 dotenv.config(); 
 
@@ -60,6 +61,45 @@ class UserService {
 
     return {token };
   
+  };
+
+  // Forgot password logic
+  public forgotPassword = async (email: string) => {
+    const user = await User.findOne({ email });
+    if (!user) {
+      throw new Error('User not found');
+    }
+
+    // Generate JWT token for reset
+    const resetToken = jwt.sign(
+      { id: user._id },
+      process.env.JWT_SECRET ,
+      { expiresIn: '12h' } 
+    );
+
+    // Send email with the token
+    await sendResetEmail(email, resetToken);
+  };
+
+  // Reset password logic
+  public resetPassword = async (token: string, newPassword: string, confirmPassword: string) => {
+    if (newPassword !== confirmPassword) {
+      throw new Error('Passwords do not match');
+    }
+
+    // Verify the JWT token
+    const decoded = jwt.verify(token, process.env.JWT_SECRET as string) as any;
+
+    const user = await User.findById(decoded.id);
+    if (!user) {
+      throw new Error('Invalid token');
+    }
+
+    // Update the user's password
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    await User.findByIdAndUpdate(user._id, {
+      password: hashedPassword,
+    });
   };
 
 }

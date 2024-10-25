@@ -4,6 +4,7 @@ import UserService from '../services/user.service';
 import { Request, Response, NextFunction } from 'express';
 
 
+
 class UserController {
     public UserService = new UserService();
 
@@ -30,6 +31,31 @@ class UserController {
       res.status(400).json({ message: error.message });
     }
   };
+
+  // Forgot Password
+  public forgotPassword = async (req: Request, res: Response) => {
+    try {
+      const { email } = req.body;
+      await this.UserService.forgotPassword(email);
+      res.status(200).json({ message: 'Password reset email sent' });
+    } catch (error) {
+      res.status(400).json({ message: error.message });
+    }
+  };
+
+  // Reset Password
+  public resetPassword = async (req: Request, res: Response) => {
+    try {
+      const { token } = req.params;
+      const { newPassword, confirmPassword } = req.body;
+      await this.UserService.resetPassword(token, newPassword, confirmPassword);
+      res.status(200).json({ message: 'Password reset successful' });
+    } catch (error) {
+      res.status(400).json({ message: error.message });
+    }
+  };
+
+
  
 }
 

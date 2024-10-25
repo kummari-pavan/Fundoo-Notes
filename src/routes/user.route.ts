@@ -18,6 +18,10 @@ class UserRoutes {
     this.router.post('/register', this.UserValidator.validateRegistration, this.UserController.register);
     this.router.post('/login', this.UserValidator.validateLogin , this.UserController.login);
 
+    // Forgot Password Route
+    this.router.post('/forgot-password', this.UserController.forgotPassword);
+    // Reset Password Route
+    this.router.put('/reset-password/:token', this.UserController.resetPassword);
   }
   
   public getRoutes=()=>{

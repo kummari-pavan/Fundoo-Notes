@@ -811,3 +811,209 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T1
 info: Connected to the database. {"timestamp":"2024-10-23T10:48:52.412Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-23T10:54:33.218Z"}
 info: Connected to the database. {"timestamp":"2024-10-23T10:54:33.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T11:18:52.481Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T11:18:52.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T11:22:11.023Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T11:22:11.079Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""pavan123"" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:25:18.235Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""username""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:25:56.318Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:30:29.451Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:30:45.071Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unterminated string in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:32:28.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T16:02:18.705Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T16:02:18.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T16:04:38.450Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T16:04:38.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T16:15:47.139Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T16:15:47.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T16:27:53.201Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T16:27:53.261Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T16:59:16.831Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T16:59:19.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:16:24.108Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:16:24.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:17:51.121Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:17:51.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:18:19.190Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:18:19.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:18:52.401Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:18:52.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:21:04.327Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:21:04.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:30:23.581Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:30:23.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:31:47.623Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:31:47.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:32:43.271Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:32:43.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:38:54.422Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:38:54.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:46:22.028Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:46:22.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:47:45.330Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:47:45.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:48:07.224Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:48:07.282Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""kpavansol"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T17:55:19.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-24T17:59:41.952Z"}
+info: Connected to the database. {"timestamp":"2024-10-24T17:59:41.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T03:36:23.258Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T03:36:23.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T03:40:16.891Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T03:40:16.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T03:41:56.838Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T03:41:56.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T03:42:42.070Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T03:42:42.117Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Bad control character in string literal in JSON at position 151
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password/%7Btoken%7D 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-25T04:35:19.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T04:41:46.297Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T04:41:46.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T04:43:42.789Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T04:43:42.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:05:51.900Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:05:51.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:40:30.860Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:40:30.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:48:13.516Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:48:13.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:48:24.304Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:48:24.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:49:04.368Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:49:04.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:50:26.874Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:50:26.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:50:47.007Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:50:47.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T05:53:11.464Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T05:53:11.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T06:29:14.625Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T06:29:14.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-25T06:32:45.917Z"}
+info: Connected to the database. {"timestamp":"2024-10-25T06:32:45.965Z"}

@@ -557,3 +557,139 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2024-10-23T10:47:36.184Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""pavan123"" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:25:18.235Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""username""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:25:56.318Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:30:29.451Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:30:45.071Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unterminated string in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T11:32:28.351Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T16:59:16.831Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T16:59:19.350Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token '"', ""kpavansol"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-24T17:55:19.315Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Bad control character in string literal in JSON at position 151
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1376:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password/%7Btoken%7D 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-25T04:35:19.767Z"}

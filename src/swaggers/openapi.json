@@ -86,6 +86,77 @@
                 }
             }
         },
+        "/users/forgot-password": {
+            "post": {
+                "tags": ["User"],
+                "summary": "Forget password",
+                "requestBody": {
+                    "description": "Forget Password",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ForgetPassword"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "reset password link sent sucessfully",
+                        "content": {}
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {}
+                    },
+                    "500": {
+                        "description": "could not send mail",
+                        "content": {}
+                    }
+                },
+                "x-codegen-request-body-name": "Forget Password"
+            }
+        },
+        "/users/reset-password/{token}": {
+            "put": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "reset password for User",
+                "requestBody": {
+                    "description": "new password",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ResetPassword"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "reset Password is sucessfully done",
+                        "content": {}
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {}
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "content": {}
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "x-codegen-request-body-name": "new password"
+            }
+        },
 
         "/notes/get-all/{userId}": {
             "get": {

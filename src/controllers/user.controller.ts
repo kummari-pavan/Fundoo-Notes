@@ -43,11 +43,10 @@ class UserController {
     }
   };
 
-  // Reset Password
+  // Reset Password From Request Body
   public resetPassword = async (req: Request, res: Response) => {
     try {
-      const { token } = req.params;
-      const { newPassword, confirmPassword } = req.body;
+      const { token, newPassword, confirmPassword } = req.body; // Get the token from the body
       await this.UserService.resetPassword(token, newPassword, confirmPassword);
       res.status(200).json({ message: 'Password reset successful' });
     } catch (error) {

@@ -95,7 +95,7 @@
                     "content": {
                         "application/json": {
                             "schema": {
-                                "$ref": "#/components/schemas/ForgetPassword"
+                                "$ref": "#/components/schemas/forgot-password"
                             }
                         }
                     },
@@ -118,7 +118,7 @@
                 "x-codegen-request-body-name": "Forget Password"
             }
         },
-        "/users/reset-password/{token}": {
+        "/users/reset-password": {
             "put": {
                 "tags": [
                     "User"
@@ -129,7 +129,7 @@
                     "content": {
                         "application/json": {
                             "schema": {
-                                "$ref": "#/components/schemas/ResetPassword"
+                                "$ref": "#/components/schemas/reset-password"
                             }
                         }
                     },
@@ -447,6 +447,31 @@
                     }
                 },
                 "required": ["email", "password"]
+            },
+            "forgot-password": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "type": "string",
+                        "format": "email"
+                    }
+                },
+                "required": ["email", "password"]
+            },
+            "reset-password": {
+                "type": "object",
+                "properties": {
+                    "token": {
+                        "type": "string"
+                    },
+                    "newPassword": {
+                        "type": "string"
+                    },
+                    "confirmPassword": {
+                        "type": "string"
+                    }
+                }
+               
             },
           
             "Note": {

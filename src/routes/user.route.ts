@@ -21,7 +21,7 @@ class UserRoutes {
     // Forgot Password Route
     this.router.post('/forgot-password', this.UserController.forgotPassword);
     // Reset Password Route
-    this.router.put('/reset-password/:token', this.UserController.resetPassword);
+    this.router.put('/reset-password/', this.UserController.resetPassword);
   }
   
   public getRoutes=()=>{

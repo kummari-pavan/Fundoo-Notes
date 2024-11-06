@@ -5,10 +5,10 @@ import { body, validationResult } from 'express-validator';
 class UserValidator {
   public validateRegistration = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
-      name: Joi.string().min(6).required(),
+      name: Joi.string().required(),
       email:Joi.string().email().required(),
-      username:Joi.string().min(8).required(),
-      password:Joi.string().min(8).required()
+      username:Joi.string().required(),
+      password:Joi.string().required()
 
     });
     const { error } = schema.validate(req.body);

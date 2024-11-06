@@ -6,17 +6,17 @@ import { Request, Response, NextFunction } from 'express';
 
 
 class UserController {
-    public UserService = new UserService();
 
+  public UserService = new UserService();
 
   // Controller for registering a new user
   public register = async (req: Request, res: Response) => {
     try {
-      const { name, email, username, password, confirmPassword } = req.body;
-      const newUser = await this.UserService.registerUser(name, email, username,  password, confirmPassword); 
-      res.status(201).json({ message: 'User registered successfully', user: newUser });
+      const { name, email, username, password } = req.body;
+      const newUser = await this.UserService.registerUser(name, email, username,  password); 
+      res.status(201).send({ message: 'User registered successfully', user: newUser });
     } catch (error) {
-      res.status(400).json({ message: error.message });
+      res.status(400).send({ message: error.message });
     }
   };
 
@@ -26,9 +26,9 @@ class UserController {
     try {
       const { email,username, password } = req.body;
       const user = await this.UserService.loginUser(email,username, password); 
-      res.status(200).json({ message: 'Login successful', user });
+      res.status(200).send({ message: 'Login successful', user });
     } catch (error) {
-      res.status(400).json({ message: error.message });
+      res.status(400).send({ message: error.message });
     }
   };
 
@@ -37,16 +37,23 @@ class UserController {
     try {
       const { email } = req.body;
       await this.UserService.forgotPassword(email);
-      res.status(200).json({ message: 'Password reset email sent' });
+      res.status(200).send({ message: 'Reset token sent to email successfully' });
     } catch (error) {
-      res.status(400).json({ message: error.message });
+      res.status(400).send({ message: error.message });
     }
   };
 
-  // Reset Password From Request Body
+  // Reset Password From Authorization header
   public resetPassword = async (req: Request, res: Response) => {
     try {
-      const { token, newPassword, confirmPassword } = req.body; // Get the token from the body
+      // Extract the token from the Authorization header
+      const bearerToken = req.header('Authorization');
+      if (!bearerToken) {
+        return res.status(400).json({ message: 'Authorization token is required' });
+      }
+      const token = bearerToken.split(' ')[1]; // Remove "Bearer" prefix
+
+      const { newPassword, confirmPassword } = req.body;
       await this.UserService.resetPassword(token, newPassword, confirmPassword);
       res.status(200).json({ message: 'Password reset successful' });
     } catch (error) {

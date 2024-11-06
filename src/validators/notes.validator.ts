@@ -10,7 +10,7 @@ class NotesValidator {
       color: Joi.string().optional(),
       //isArchive: Joi.boolean().optional().default(false),
       //isTrash: Joi.boolean().optional().default(false),
-      createdBy: Joi.string().required(),
+      //createdBy: Joi.string().required(),
     });
 
     const { error } = schema.validate(req.body);

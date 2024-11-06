@@ -151,48 +151,36 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ],
                 "x-codegen-request-body-name": "new password"
             }
         },
 
-        "/notes/get-all/{userId}": {
-            "get": {
-                "tags": ["Notes"],
-                "summary": "Get all notes",
-                "parameters": [
-                    {
-                        "name": "userId",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "Notes fetched successfully",
-                        "content": {}
-                    },
-                    "400": {
-                        "description": "Bad Request",
-                        "content": {}
-                    },
-                    "500": {
-                        "description": "Internal server error",
-                        "content": {}
-                    }
-                },
-                "security": [
-                    {
-                        "JWT": []
-                    }
-                ]
+        "/notes": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all notes created by user",
+          "responses": {
+            "200": {
+              "description": "Notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
             }
-            
+          },
+          "security": [
+            {
+              "BearerAuth": []
+            }
+          ]
+        }
         },
 
         "/notes/create": {
@@ -226,13 +214,11 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
                 }
         },
-
-
         "/notes/get/{noteId}": {
             "get": {
                 "tags": ["Notes"],
@@ -263,13 +249,13 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
             }
         },
         "/notes/update/{noteId}": {
-            "update": {
+            "put": {
                 "tags": ["Notes"],
                 "summary": "Update a note",
                 "parameters": [
@@ -309,7 +295,7 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
             }
@@ -344,18 +330,42 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
             }
         },
+        "/notes/archive": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all archived notes",
+          "responses": {
+            "200": {
+              "description": "Archived notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "BearerAuth": []
+            }
+          ]
+        }
+        },
         "/notes/archive/{noteId}": {
-            "post": {
+            "put": {
                 "tags": ["Notes"],
                 "summary": "Archive a note",
                 "parameters": [
                     {
-                        "name": "_id",
+                        "name": "noteId",
                         "in": "path",
                         "required": true,
                         "schema": {
@@ -379,18 +389,42 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
             }
         },
+        "/notes/trash/": {
+        "get": {
+          "tags": [
+            "Notes"
+          ],
+          "summary": "Get all trashed notes",
+          "responses": {
+            "200": {
+              "description": "Trashed notes fetched successfully"
+            },
+            "400": {
+              "description": "Bad Request"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "BearerAuth": []
+            }
+          ]
+        }
+        },
         "/notes/trash/{noteId}": {
-            "post": {
+            "put": {
                 "tags": ["Notes"],
                 "summary": "Send a note to trash",
                 "parameters": [
                     {
-                        "name": "_id",
+                        "name": "noteId",
                         "in": "path",
                         "required": true,
                         "schema": {
@@ -414,7 +448,7 @@
                 },
                 "security": [
                     {
-                        "JWT": []
+                        "BearerAuth": []
                     }
                 ]
             }
@@ -494,11 +528,12 @@
             }
         },
         "securitySchemes": {
-            "JWT": {
-                "type": "apiKey",
-                "name": "Authorization",
-                "in": "header"
+            "BearerAuth":{
+              "type":"http",
+              "scheme":"bearer",
+              "bearerFormat":"JWT"
             }
+           
         }
     }
     

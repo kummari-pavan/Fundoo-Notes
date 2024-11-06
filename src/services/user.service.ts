@@ -14,7 +14,7 @@ class UserService {
     email: string, 
     username: string, 
     password: string, 
-    confirmPassword: string)=>{
+   )=>{
 
     // Check if the username or email already exists
     const existingUser = await User.findOne({$or: [{ email: email }, { username: username }] });
@@ -54,12 +54,11 @@ class UserService {
     }
 
      // Generate JWT Token 
-     const token = jwt.sign(
-      { id: user._id, email: user.email, username: user.username },  // Payload data
+     const token = jwt.sign({user:{ id: user._id, email: user.email, username: user.username }},
       process.env.JWT_SECRET);
   
 
-    return {token };
+    return token;
   
   };
 
@@ -72,7 +71,7 @@ class UserService {
 
     // Generate JWT token for reset
     const resetToken = jwt.sign(
-      { id: user._id },
+      {user:{ id: user._id }},
       process.env.JWT_SECRET ,
       { expiresIn: '12h' } 
     );

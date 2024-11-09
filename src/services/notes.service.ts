@@ -21,7 +21,6 @@ class NotesService {
     return note;
   };
 
-
   // Get all notes for a user
   public getNotes = async (userId: string): Promise<INote[]> => {
     const allNotes= await Note.find({ createdBy: userId });
@@ -37,8 +36,10 @@ class NotesService {
   };
 
    //View the Trash Notes
-   public viewTrash=async(body:INote):Promise<INote[]> =>{
+   public viewTrash=async(body:INote,userId: string):Promise<INote[]> =>{
     return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:true}]})
+    //return await Note.find({$and:[{createdBy: userId},{isTrash:true}]})
+    //return await Note.find({isTrash:true})
   }
 
   //View the Trash Notes by Nites Id
@@ -49,8 +50,7 @@ class NotesService {
     }
     else{
       return await Note.findByIdAndUpdate(noteId,{isTrash: false},{ new: true });
-    }
-    
+    }    
   };
  
   //view the Archive note
@@ -83,8 +83,7 @@ class NotesService {
       throw new Error("Cannot find by id and Delete: "+ error)
     }   
     
-  };
-  
+  };  
 }
 
 export default NotesService;

@@ -35,9 +35,7 @@ class UserService {
       username,
       password: hashPassword 
     });
-
     return await newUser.save();
-
   };
 
   // Define a function to log in a user
@@ -46,17 +44,14 @@ class UserService {
     if (!user) {
       throw new Error('User not found');
     }
-
     // Compare the provided password with the hashed password in the database
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
       throw new Error('Invalid credentials');
     }
-
-     // Generate JWT Token 
-     const token = jwt.sign({user:{ id: user._id, email: user.email, username: user.username }},
-      process.env.JWT_SECRET);
-  
+    // Generate JWT Token 
+    const token = jwt.sign({user:{ id: user._id, email: user.email, username: user.username }},
+    process.env.JWT_SECRET);
 
     return token;
   
@@ -68,7 +63,6 @@ class UserService {
     if (!user) {
       throw new Error('User not found');
     }
-
     // Generate JWT token for reset
     const resetToken = jwt.sign(
       {user:{ id: user._id }},
@@ -85,15 +79,12 @@ class UserService {
     if (newPassword !== confirmPassword) {
       throw new Error('Passwords do not match');
     }
-
     // Verify the JWT token
     const decoded = jwt.verify(token, process.env.JWT_SECRET as string) as any;
-
     const user = await User.findById(decoded.id);
     if (!user) {
       throw new Error('Invalid token');
     }
-
     // Update the user's password
     const hashedPassword = await bcrypt.hash(newPassword, 10);
     await User.findByIdAndUpdate(user._id, {
@@ -102,6 +93,5 @@ class UserService {
   };
 
 }
-
 
 export default UserService;

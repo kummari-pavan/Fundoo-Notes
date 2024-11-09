@@ -4,14 +4,11 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
 import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
-
 import morgan from 'morgan';
-
 
 
 class App {
@@ -30,12 +27,10 @@ class App {
     this.host = process.env.APP_HOST;
     this.port = process.env.APP_PORT;
     this.api_version = process.env.API_VERSION;
-
     this.initializeMiddleWares();
     this.initializeRoutes();
     this.initializeErrorHandlers();
     this.initializeDatabase();
-   
     this.startApp();
   }
 
@@ -79,5 +74,4 @@ class App {
 
 
 const app = new App();
-
 export default app;

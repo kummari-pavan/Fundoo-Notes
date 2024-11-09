@@ -13536,3 +13536,220 @@ info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-05T
 info: Connected to the database. {"timestamp":"2024-11-05T16:24:51.398Z"}
 info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-05T16:26:21.885Z"}
 info: Connected to the database. {"timestamp":"2024-11-05T16:26:21.942Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:38:58.722Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:38:58.826Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:40:06.493Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:40:06.604Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:45:11.444Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:45:11.528Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:48:42.040Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:48:42.090Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:50:26.798Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:50:26.838Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T09:54:42.908Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T09:54:42.951Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:05:44.902Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:05:45.026Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:16:42.551Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:16:42.606Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:16:50.577Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:16:50.617Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:17:56.663Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:17:56.702Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:23:11.557Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:23:11.712Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:27:49.865Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:27:49.910Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:28:08.381Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:28:08.439Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:29:57.258Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:29:57.330Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:31:25.648Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:31:25.719Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:34:09.865Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:34:09.907Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:42:52.698Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:42:52.737Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:42:59.542Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:42:59.586Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:46:32.035Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:46:32.067Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:47:21.440Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:47:21.543Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:48:52.034Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:48:52.070Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:51:02.338Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:51:02.379Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:52:15.680Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:52:15.796Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:53:31.779Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:53:31.817Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:53:44.910Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:53:44.949Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:55:22.938Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:55:22.993Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:55:37.859Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:55:37.910Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T10:56:56.081Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T10:56:56.115Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:17:38.748Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:17:38.915Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:18:11.032Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:18:11.071Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:21:52.298Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:21:52.398Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:29:21.195Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:29:21.235Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:29:27.416Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:29:27.456Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:30:21.562Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:30:21.603Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:30:50.255Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:30:50.384Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at Commander.BaseClass.<computed> [as set] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at NotesController.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:41:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-06T11:30:59.935Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:31:28.639Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:31:28.675Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at Commander.BaseClass.<computed> [as set] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at NotesController.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:41:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-06T11:31:36.361Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:32:09.068Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:32:09.118Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:32:37.177Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:32:37.242Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:32:45.790Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:32:45.894Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:33:51.989Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:33:52.034Z"}
+error: 
+    status - 500 
+    message - TypeError: redisClient_1.default.set is not a function
+    at NotesController.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:41:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-06T11:35:31.904Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:37:02.225Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:37:02.286Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:38:17.317Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:38:17.354Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:38:21.674Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:38:21.734Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:38:36.711Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:38:36.759Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:39:21.404Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:39:21.450Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:40:22.401Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:40:22.536Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:40:42.711Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:40:42.747Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at Commander.BaseClass.<computed> [as set] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at NotesController.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:41:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-06T11:40:48.855Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:520:31)
+    at Commander.commandsExecutor (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:190:154)
+    at Commander.BaseClass.<computed> [as set] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at NotesController.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:41:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\controllers\notes.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-11-06T11:43:11.401Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:44:17.228Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:44:17.377Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-06T11:46:01.572Z"}
+info: Connected to the database. {"timestamp":"2024-11-06T11:46:01.667Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T04:17:08.617Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T04:17:08.650Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T04:22:23.808Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T04:22:23.846Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T04:28:49.430Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T04:28:49.460Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T06:32:39.228Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T06:32:39.350Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T07:04:10.055Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T07:04:10.104Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T07:10:17.676Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T07:10:17.727Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T07:12:55.917Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T07:12:55.966Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-07T07:16:14.924Z"}
+info: Connected to the database. {"timestamp":"2024-11-07T07:16:14.962Z"}
+error: uncaughtException: (0 , rabbitMq_1.connectToRabbitMQ) is not a function
+TypeError: (0 , rabbitMq_1.connectToRabbitMQ) is not a function
+    at Object.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\src\index.ts:18:18)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\User\AppData\Local\Temp\ts-node-dev-hook-9558255923530283.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\User\AppData\Local\Temp\ts-node-dev-hook-9558255923530283.js:114:20)
+    at require.extensions.<computed> (C:\Users\User\AppData\Local\Temp\ts-node-dev-hook-9558255923530283.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\ts-node-dev\lib\wrap.js:104:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._compile (C:\Users\User\Documents\Bridge Labz\Fundoo_Notes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10) {"date":"Sat Nov 09 2024 10:17:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":134756.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18482361,"external":20630449,"heapTotal":76156928,"heapUsed":37351152,"rss":109785088},"pid":2348,"uid":null,"version":"v20.6.1"},"stack":"TypeError: (0 , rabbitMq_1.connectToRabbitMQ) is not a function\n    at Object.<anonymous> (C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\src\\index.ts:18:18)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1091:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:938:12)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)\n    at require (node:internal/modules/helpers:130:18)\n    at Object.<anonymous> (C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\ts-node-dev\\lib\\wrap.js:104:1)\n    at Module._compile (node:internal/modules/cjs/loader:1241:14)\n    at Module._compile (C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)","timestamp":"2024-11-09T04:47:32.956Z","trace":[{"column":18,"file":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false},{"column":20,"file":"C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\User\\AppData\\Local\\Temp\\ts-node-dev-hook-9558255923530283.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1091,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":938,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1115,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":130,"method":null,"native":false},{"column":1,"file":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\ts-node-dev\\lib\\wrap.js","function":null,"line":104,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1241,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\User\\Documents\\Bridge Labz\\Fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1295,"method":".js","native":false}]}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T04:55:39.421Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T04:55:39.465Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T04:56:10.579Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T04:56:10.718Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T04:57:07.231Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T04:57:07.278Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:00:16.815Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:00:16.870Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:00:59.640Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:00:59.685Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:02:29.083Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:02:29.119Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:03:32.309Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:03:32.354Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:11:01.135Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:11:01.176Z"}
+info: Server started at https://localhost:3000/api/v1/ {"timestamp":"2024-11-09T05:41:49.642Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T05:41:49.723Z"}

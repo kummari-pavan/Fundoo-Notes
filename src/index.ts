@@ -9,7 +9,10 @@ import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
 import morgan from 'morgan';
+import { connectToRabbitMQ } from './utils/rabbitMq';
 
+//initialzing RabbitMQ Connection
+connectToRabbitMQ();
 
 class App {
   public app: Application;

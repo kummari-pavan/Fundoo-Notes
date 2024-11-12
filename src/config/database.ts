@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
 import Logger from './logger';
 
+import dotenv from 'dotenv';
+
 class Database {
   private DATABASE: string;
   private logger;
@@ -29,4 +31,7 @@ class Database {
     }
   };
 }
+
+
 export default Database;
+

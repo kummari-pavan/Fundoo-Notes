@@ -4,13 +4,15 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
 import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
-
 import morgan from 'morgan';
+import { connectToRabbitMQ } from './utils/rabbitMq';
+
+//initialzing RabbitMQ Connection
+connectToRabbitMQ();
 
 class App {
   public app: Application;
@@ -28,11 +30,10 @@ class App {
     this.host = process.env.APP_HOST;
     this.port = process.env.APP_PORT;
     this.api_version = process.env.API_VERSION;
-
     this.initializeMiddleWares();
     this.initializeRoutes();
-    this.initializeDatabase();
     this.initializeErrorHandlers();
+    this.initializeDatabase();
     this.startApp();
   }
 
@@ -57,7 +58,8 @@ class App {
     this.app.use(this.errorHandler.genericErrorHandler);
     this.app.use(this.errorHandler.notFound);
   }
-
+  
+  
   public startApp(): void {
     this.app.listen(this.port, () => {
       this.logger.info(
@@ -69,8 +71,10 @@ class App {
   public getApp(): Application {
     return this.app;
   }
+ 
+
 }
 
-const app = new App();
 
+const app = new App();
 export default app;

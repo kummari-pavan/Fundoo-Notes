@@ -13,7 +13,7 @@ describe('User APIs Test', () => {
     };
 
     const mongooseConnect = async () => {
-      await mongoose.connect(process.env.DATABASE_TEST);
+      await mongoose.connect(process.env.DATABASE_TEST ||"");
       clearCollections();
     };
 

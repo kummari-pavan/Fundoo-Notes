@@ -37,14 +37,13 @@ class NotesService {
 
    //View the Trash Notes
    public viewTrash=async(body:INote,userId: string):Promise<INote[]> =>{
-    return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isTrash:true}]})
-    //return await Note.find({$and:[{createdBy: userId},{isTrash:true}]})
-    //return await Note.find({isTrash:true})
+      const allTrashNotes= await Note.find({ $and: [{ createdBy: new Types.ObjectId(userId) }, { isTrash: { $eq: true } }] })
+      return allTrashNotes   
   }
 
   //View the Trash Notes by Nites Id
   public trashNote = async (noteId: string): Promise<INote | null> => {
-    const doc:INote = await Note.findOne({_id:noteId});
+   const doc:INote = await Note.findOne({_id:noteId});
     if(!doc.isTrash){
       return await Note.findByIdAndUpdate(noteId,{isTrash: true},{ new: true });
     }
@@ -53,10 +52,11 @@ class NotesService {
     }    
   };
  
-  //view the Archive note
-  public viewArchive=async(body:INote):Promise<INote[]> =>
+  //view the  all Archive notes
+  public viewArchive=async(body:INote,userId: string):Promise<INote[]> =>
     {
-      return await Note.find({$and:[{createdBy:new Types.ObjectId(body.createdBy)},{isArchive:true}]})
+      const allArchiveNotes= await Note.find({ $and: [{ createdBy: new Types.ObjectId(userId) }, { isArchive: { $eq: true } }] })
+      return allArchiveNotes
     }
   
   //view the Archive By Note Id

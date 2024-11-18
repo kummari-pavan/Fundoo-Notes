@@ -1,11 +1,11 @@
 import { Document, Types } from 'mongoose';
 
 export interface INote extends Document {
-  _id: Types.ObjectId; // or string, depending on how you want to handle the ID
+  _id: Types.ObjectId; 
   title: string;
   description: string;
-  color?: string; // Optional
+  color?: string; 
   isArchive: boolean;
   isTrash: boolean;
-  createdBy: Types.ObjectId; // Reference to User model (make sure it's an ObjectId)
+  createdBy: Types.ObjectId; 
 }

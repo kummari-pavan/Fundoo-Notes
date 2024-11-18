@@ -150,12 +150,12 @@ class NotesController {
           res.status(HttpStatus.BAD_REQUEST).json({ message: error.message });
         }
       };
-      //view archive
+      //view all archive notes
       public  viewArchive=async(req:Request,res:Response):Promise<any>=>{
         try{
           const noteId = req.params.noteId;
           const userId = res.locals.user;
-          const notes = await this.NotesService.viewArchive(req.body);
+          const notes = await this.NotesService.viewArchive(req.body,userId);
            // Clear cache
            await redisClient.del(`user_notes_${userId}`);
            await redisClient.del(`user_${userId}_note_${noteId}`);

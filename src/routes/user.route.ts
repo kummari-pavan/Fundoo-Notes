@@ -13,7 +13,7 @@ class UserRoutes {
   }
   
   private routes=()=>{
-    this.router.post('/register', this.UserValidator.validateRegistration, this.UserController.register); //Register
+    this.router.post('', this.UserValidator.validateRegistration, this.UserController.register); //Register
     this.router.post('/login', this.UserValidator.validateLogin , this.UserController.login); //Login
     this.router.post('/forgot-password', this.UserController.forgotPassword); //ForgotPassword
     this.router.put('/reset-password/',passwordResetAuth, this.UserController.resetPassword); //ResetPassword

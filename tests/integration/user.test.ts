@@ -48,7 +48,7 @@ describe('User APIs Test', () => {
   describe('User Registration', () => {
     it('should register a new user successfully', async () => {
       const res = await request(app.getApp())
-        .post('/api/v1/users/register')
+        .post('/api/v1/users')
         .send(userData);
 
       expect(res.status).to.equal(201);
@@ -92,7 +92,7 @@ describe('User APIs Test', () => {
       console.log(token);
 
       const res = await request(app.getApp())
-        .post('/api/v1/notes/create')
+        .post('/api/v1/notes')
         .set('Authorization', `Bearer ${token}`) // Set the Authorization header with the token
         .send(noteData);
       expect(res.status).to.equal(201);
@@ -131,7 +131,7 @@ describe('User APIs Test', () => {
       
       const noteId = createdNoteId // Get the ID of the created note
       const res = await request(app.getApp())
-        .get(`/api/v1/notes/get/${noteId}`)
+        .get(`/api/v1/notes/${noteId}`)
         .set('Authorization', `Bearer ${token}`);
       
       if (res.status === 404) {
@@ -150,7 +150,7 @@ describe('User APIs Test', () => {
   describe('Update Note', () => {
     it('should update a note successfully', async () => {
       const res = await request(app.getApp())
-        .put(`/api/v1/notes/update/${createdNoteId}`)
+        .put(`/api/v1/notes/${createdNoteId}`)
         .set('Authorization', `Bearer ${token}`)
         .send(updatedNoteData);
 
@@ -162,7 +162,7 @@ describe('User APIs Test', () => {
   describe('Archive/Unarchive Note', () => {
     it('should archive a note successfully', async () => {
       const res = await request(app.getApp())
-        .put(`/api/v1/notes/archive/${createdNoteId}`)
+        .put(`/api/v1/notes/${createdNoteId}/archive`)
         .set('Authorization', `Bearer ${token}`);
       console.log(res.body);
       expect(res.status).to.equal(200);
@@ -173,7 +173,7 @@ describe('User APIs Test', () => {
   describe('Trash/Restore Note', () => {
     it('should trash a note successfully', async () => {
       const res = await request(app.getApp())
-        .put(`/api/v1/notes/trash/${createdNoteId}`)
+        .put(`/api/v1/notes/${createdNoteId}/trash`)
         .set('Authorization', `Bearer ${token}`);
 
       expect(res.status).to.equal(200);
@@ -184,7 +184,7 @@ describe('User APIs Test', () => {
   describe('Delete Note Forever', () => {
     it('should delete a note permanently', async () => {
       const res = await request(app.getApp())
-        .delete(`/api/v1/notes/delete/${createdNoteId}`)
+        .delete(`/api/v1/notes/${createdNoteId}/`)
         .set('Authorization', `Bearer ${token}`);
 
       expect(res.status).to.equal(200);

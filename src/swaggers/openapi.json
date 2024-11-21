@@ -6,7 +6,7 @@
     },
     "servers": [
         {
-            "url": "http://localhost:3000/api/v1"
+            "url": "http://localhost:4000/api/v1"
         }
     ],
     "tags": [
@@ -20,7 +20,7 @@
         }
     ],
     "paths": {
-        "/users/register": {
+        "/users": {
             "post": {
                 "tags": ["User"],
                 "description": "Register a new user",
@@ -158,34 +158,11 @@
             }
         },
 
-        "/notes": {
-        "get": {
-          "tags": [
-            "Notes"
-          ],
-          "summary": "Get all notes created by user",
-          "responses": {
-            "200": {
-              "description": "Notes fetched successfully"
-            },
-            "400": {
-              "description": "Bad Request"
-            },
-            "500": {
-              "description": "Internal server error"
-            }
-          },
-          "security": [
-            {
-              "BearerAuth": []
-            }
-          ]
-        }
-        },
+        
 
-        "/notes/create": {
+        "/notes": {
                 "post":{
-                    "tags": ["Notes"],
+                "tags": ["Notes"],
                 "summary": "Create a new note",
                 "requestBody": {
                     "description": "Details of the note to be created",
@@ -217,9 +194,37 @@
                         "BearerAuth": []
                     }
                 ]
-                }
+                }     
+    
         },
-        "/notes/get/{noteId}": {
+
+        "/notes/":{
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Get all notes created by user",
+                "responses": {
+                    "200": {
+                    "description": "Notes fetched successfully"
+                    },
+                    "400": {
+                    "description": "Bad Request"
+                    },
+                    "500": {
+                    "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                    "BearerAuth": []
+                    }
+                ]
+                }
+
+        },
+          
+        "/notes/{noteId}": {
             "get": {
                 "tags": ["Notes"],
                 "summary": "Get a single note by its ID",
@@ -252,9 +257,7 @@
                         "BearerAuth": []
                     }
                 ]
-            }
-        },
-        "/notes/update/{noteId}": {
+            },
             "put": {
                 "tags": ["Notes"],
                 "summary": "Update a note",
@@ -298,9 +301,7 @@
                         "BearerAuth": []
                     }
                 ]
-            }
-        },
-        "/notes/delete/{noteId}": {
+            },
             "delete": {
                 "tags": ["Notes"],
                 "summary": "Delete a note",
@@ -335,6 +336,7 @@
                 ]
             }
         },
+        
         "/notes/archive": {
         "get": {
           "tags": [
@@ -359,7 +361,7 @@
           ]
         }
         },
-        "/notes/archive/{noteId}": {
+        "/notes/{noteId}/archive": {
             "put": {
                 "tags": ["Notes"],
                 "summary": "Archive a note",
@@ -418,7 +420,7 @@
           ]
         }
         },
-        "/notes/trash/{noteId}": {
+        "/notes/{noteId}/trash": {
             "put": {
                 "tags": ["Notes"],
                 "summary": "Send a note to trash",
@@ -459,6 +461,12 @@
             "User": {
                 "type": "object",
                 "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "username": {
+                        "type": "string"
+                    },
                     "email": {
                         "type": "string",
                         "format": "email"
@@ -514,14 +522,8 @@
                     "title": {
                         "type": "string"
                     },
-                    "content": {
+                    "description": {
                         "type": "string"
-                    },
-                    "isArchived": {
-                        "type": "boolean"
-                    },
-                    "isTrashed": {
-                        "type": "boolean"
                     }
                 },
                 "required": ["title", "content"]

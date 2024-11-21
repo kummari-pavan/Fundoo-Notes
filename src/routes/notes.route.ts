@@ -13,22 +13,17 @@ class NotesRoutes {
     this.routes();
   }
 
-  public routes = () => { this.router.post(
-      '/create',
-      this.notesValidator.createNoteSchema,
-      userAuth,
-      this.NotesController.createNote
-    );
+  public routes = () => { this.router.post('',this.notesValidator.createNoteSchema,userAuth,this.NotesController.createNote);
 
     // Getting User Notes Data 
     this.router.get('/',userAuth,cacheAllNotes, this.NotesController.getNotes); //All
-    this.router.get('/get/:noteId',userAuth,cacheNoteById, this.NotesController.getNoteById); //ByNoteId
-    this.router.put('/update/:noteId',this.notesValidator.updateNoteSchema,userAuth,this.NotesController.updateNote); //UpdateByNoteId
-    this.router.delete('/delete/:noteId',userAuth,this.NotesController.deleteNote); //DeleteByNoteId
+    this.router.get('/:noteId',userAuth,cacheNoteById, this.NotesController.getNoteById); //ByNoteId
+    this.router.put('/:noteId',this.notesValidator.updateNoteSchema,userAuth,this.NotesController.updateNote); //UpdateByNoteId
+    this.router.delete('/:noteId/',userAuth,this.NotesController.deleteNote); //DeleteByNoteId
     this.router.get('/trash',userAuth,this.NotesController.viewTrash); //AllTrash
-    this.router.put('/trash/:noteId',userAuth,this.NotesController.trashNote); //TrashNoteById
+    this.router.put('/:noteId/trash',userAuth,this.NotesController.trashNote); //TrashNoteById
     this.router.get('/archive',userAuth,this.NotesController.viewArchive); //AllArchive
-    this.router.put('/archive/:noteId',userAuth,this.NotesController.archiveNote); //ArchiveByNoteId
+    this.router.put('/:noteId/archive',userAuth,this.NotesController.archiveNote); //ArchiveByNoteId
 };
 
   public getRoutes = () => {
